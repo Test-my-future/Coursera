@@ -3,6 +3,7 @@ html {
 }
 body {
     font-family: 'Zen Maru Gothic', serif;
+    position: relative;
 }
 
 * {
@@ -129,15 +130,15 @@ h1 {
     .col {
         width: 100%;
         float: none;
+        
     }
 
+    footer {
+        margin-bottom: -50px;
+    }
 }
 
 footer {
-    position: relative;
-}
-
-#footer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -146,6 +147,4 @@ footer {
     border: 4px solid black;
     width: 100%;
 }
-
-
-
+   
